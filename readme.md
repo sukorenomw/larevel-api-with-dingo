@@ -23,3 +23,17 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## Laravel API with dingo documentation
+
+### Setup
+
+Create laravel project:
+
+    composer create-project laravel/laravel laravel-api 4.2
+
+add dingo to *your-apps/composer.json*:
+
+    "dingo/api": "0.8.*"
+
+Run `composer update`.
